@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <QueryClientProvider client={queryClient}>
-        <Router basename={import.meta.env.DEV ? "/" : "/react-vite-gh-pages/"}>
+        <Router basename={import.meta.env.DEV ? "/" : "/crypto-app/"}>
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
