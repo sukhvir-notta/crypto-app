@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <QueryClientProvider client={queryClient}>
-        <Router>
+        <Router basename={import.meta.env.DEV ? "/" : "/react-vite-gh-pages/"}>
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />

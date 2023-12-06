@@ -1,7 +1,6 @@
 {
   "name": "crypto-app",
   "private": true,
-  "homepage": "https://sukhvir-notta.github.io/crypto-app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
