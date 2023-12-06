@@ -21,8 +21,8 @@ function App() {
         <Router>
           <Header />
           <Routes>
-            <Route path="/crypto-app/" element={<Home />} />
-            <Route path="/crypto-app/:id" element={<Coin />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/:id" element={<Coin />} />
           </Routes>
         </Router>
       </QueryClientProvider>
